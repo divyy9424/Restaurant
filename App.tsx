@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { HashRouter, Routes, Route, Link, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { MenuData, Order, CartItem, MenuItem } from './types';
-import { getDefaultMenu } from './geminiService';
+import { getDefaultMenu } from './Service';
 import MenuDisplay from './components/MenuDisplay';
 import WaiterDashboard from './components/WaiterDashboard';
 import AdminDashboard from './components/AdminDashboard';
